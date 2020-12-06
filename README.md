@@ -1,5 +1,5 @@
 # Build Python 3.9 from source on Linux (Ubuntu and Debian)
-Procedure has been tested on `Ubuntu 20.04 LTS` and `Debian GNU/Linux 10 (buster)`.  
+Procedure has been tested on `Ubuntu 20.04 LTS` and `Debian GNU/Linux 10 (Raspberry Pi)`.  
 An alternative installation will be made meaning the Python 3 version that comes with the Linux distribution will not be broken.
 This is important because a lot of Linux packages depend on the Python 3 version that comes with the distro.  
 Python 3 that comes with the Linux distro: `/usr/bin/python3`  
