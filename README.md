@@ -31,15 +31,15 @@ $ sudo apt install wget -y
 ```
 
 ## Download source files and build/install Python 3.9
-In this example `Python 3.9.0` sourcecode files will be used but the procedure can also be tested on other Python versions.   
+In this example `Python 3.9.5` sourcecode files will be used but the procedure can also be tested on other Python versions.   
 Download and extract source code files:
 ```
-$ wget https://www.python.org/ftp/python/3.9.0/Python-3.9.0.tgz
-$ tar -xzf Python-3.9.0.tgz
+$ wget https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tgz
+$ tar -xzf Python-3.9.5.tgz
 ```
 Change working directory:
 ```
-$ cd Python-3.9.0
+$ cd Python-3.9.5
 ```
 Prepare the build with optimization features:
 ```
@@ -53,8 +53,8 @@ $ sudo make altinstall
 Go back to directory where initial file was downloaded, remove downloaded file and directory containing the extracted files (with sudo because some files are owned by root):
 ```
 $ cd ..
-$ rm Python-3.9.0.tgz
-$ sudo rm -rf Python-3.9.0
+$ rm Python-3.9.5.tgz
+$ sudo rm -rf Python-3.9.5
 ```
 
 ## Check installation and usage
@@ -71,7 +71,7 @@ Check Python 3 version for Linux distro and alternative version:
 $ python3 -V
 Python 3.7.3
 $ python3.9 -V
-Python 3.9.0
+Python 3.9.5
 ```
 Show Python packages that come with the newly installed version:
 ```
@@ -97,7 +97,7 @@ From now on `python` can be used as command:
 $ which python
 /home/wim/myenv/bin/python
 $ python -V
-Python 3.9.0
+Python 3.9.5
 ```
 Update `pip` and `setuptools` to the latest version:
 ```
